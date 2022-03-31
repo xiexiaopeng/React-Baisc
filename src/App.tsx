@@ -1,9 +1,8 @@
-import { FC } from "react";
 import { Provider } from "react-redux";
 import store from "./store";
 import RouterConfig from "./router";
 
-const App: FC = () => {
+const App = () => {
   return (
     <Provider store={store}>
       <RouterConfig />

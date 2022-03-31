@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-interface IProps {}
+interface IProps {
+  history: any;
+}
 interface IState {}
 class Home extends Component<IProps, IState> {
   constructor(props: IProps) {
